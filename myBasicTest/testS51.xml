@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<parameter name="Baseurl" value="codenboxautomationlab.com"></parameter>		<!-- Global Var-->
+	<parameter name="Username" value="Dhaval"></parameter>							<!-- Global Var-->
+	
+
+  	<test name="TestS51">
+		<parameter name="Baseurl" value="google.com"></parameter>							<!-- Local Var-->
+		<parameter name="SubURL" value="do the checkbox"></parameter>							<!-- local Var-->
+	  	<classes>
+	  		<class name="testNG.DemoS51"></class>
+	  	</classes>
+  
+  	</test> <!-- TestS51 -->
+</suite> <!-- Suite -->

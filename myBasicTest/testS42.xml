@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  
+  <test thread-count="5" name="Test40">
+    <classes>
+      <class name="testNG.DemoS39"/>
+      <class name="testNG.DemoS38"/>
+      <class name="testNG.DemoS41"/>
+    </classes>
+  </test> <!-- Test40 -->
+  
+  
+  <test thread-count="5" name="Test41.1">
+    <classes>
+      <class name="testNG.DemoS38">
+      	 <methods>
+	      	<include name = "S38"/>
+	      </methods>
+      </class>
+      	
+      <class name="testNG.DemoS41">
+	      <methods>
+	      	<exclude name = "S41_MobLogin"/>
+	      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test41 -->
+
+
+  <test thread-count="5" name="Test42">
+    <classes>
+      <class name="testNG.DemoS42"/>
+    </classes>
+  </test> <!-- Test42 -->
+  
+  
+</suite> <!-- Suite -->
