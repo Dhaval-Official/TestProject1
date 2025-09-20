@@ -1,2 +1,2 @@
 # TestProject1
-Test1 adding Project5 from Eclipse to github
+Test1 adding /home/dhaval/Git Trials/myBasicTest Directory to github
